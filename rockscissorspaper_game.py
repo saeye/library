@@ -20,9 +20,11 @@ def get_player_choice():
 def determine_winner(player_choice, computer_choice):
     if player_choice == computer_choice:
         return "무승부"
-    elif ((player_choice == "바위" and computer_choice == "가위") or
-          (player_choice == "가위" and computer_choice == "보") or
-          (player_choice == "보" and computer_choice == "바위")):
+    elif (
+        (player_choice == "바위" and computer_choice == "가위")
+        or (player_choice == "가위" and computer_choice == "보")
+        or (player_choice == "보" and computer_choice == "바위")
+    ):
         return "승리"
     else:
         return "패배"

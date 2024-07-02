@@ -35,16 +35,21 @@ while True:
         except ValueError:
             print("숫자가 아닙니다.")
 
-    end_question = input("게임을 계속 하고 싶으면 y, 종료하고 싶으면 n 을 입력하세요: ").strip().lower()
-    if end_question == 'n':
+    end_question = (
+        input("게임을 계속 하고 싶으면 y, 종료하고 싶으면 n 을 입력하세요: ")
+        .strip()
+        .lower()
+    )
+
+    if end_question == "n":
         break
-    elif end_question != 'y':
+    elif end_question != "y":
         print("잘못된 입력입니다. 게임을 종료합니다.")
         break
-
     if total_attempts:
         last_attempt = total_attempts[-1]
         print(f"전 라운드 시도 횟수: {last_attempt}번! 이번 라운드도 화이팅입니다!")
+
 
 if total_attempts:
     last_attempt = total_attempts[-1]
