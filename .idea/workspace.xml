@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd5184c4-d293-4875-9468-c287af4a1f45" name="Changes" comment="" />
+    <list default="true" id="fd5184c4-d293-4875-9468-c287af4a1f45" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rockscissorspaper_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/rockscissorspaper_game.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,11 +51,13 @@
     "ignore_missing_gitignore": "true",
     "last_opened_file_path": "/Users/saeye/Desktop/python_practice",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.externalTools",
+    "settings.editor.selected.configurable": "watcher.settings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -180,7 +185,7 @@
       <workItem from="1719906635554" duration="7272000" />
       <workItem from="1719930739789" duration="87000" />
       <workItem from="1719930834188" duration="3191000" />
-      <workItem from="1719936351785" duration="12660000" />
+      <workItem from="1719936351785" duration="20361000" />
     </task>
     <servers />
   </component>
@@ -201,7 +206,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_practice$updown_game__1_.coverage" NAME="updown_game (1) Coverage Results" MODIFIED="1719940786284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_practice$rockscissorspapergame_modified.coverage" NAME="rockscissorspapergame_modified Coverage Results" MODIFIED="1719990120087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_practice$rockscissorspaper_game.coverage" NAME="rockscissorspaper_game Coverage Results" MODIFIED="1719997224412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_practice$rockscissorspaper_game.coverage" NAME="rockscissorspaper_game Coverage Results" MODIFIED="1720032024017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_practice$updown_game.coverage" NAME="updown_game Coverage Results" MODIFIED="1719936475072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

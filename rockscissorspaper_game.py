@@ -27,30 +27,30 @@ def determine_winner(player_choice, computer_choice):
     global win, lose, draw
     if player_choice == computer_choice:
         draw += 1
-        return "무승부"
+        return "무승부!"
     elif (
         (player_choice == "바위" and computer_choice == "가위")
         or (player_choice == "가위" and computer_choice == "보")
         or (player_choice == "보" and computer_choice == "바위")
     ):
         win += 1
-        return "승리"
+        return "이겼습니다!"
     else:
         lose += 1
-        return "패배"
+        return "졌습니다.."
 
 
 def play_game():
     player_choice = get_player_choice()
     computer_choice = get_computer_choice()
     play_result = determine_winner(player_choice, computer_choice)
-    print(f"나: {player_choice}, 컴퓨터: {computer_choice} \n{play_result}입니다.")
+    print(f"나: {player_choice}, 컴퓨터: {computer_choice} \n{play_result}")
     return play_result
 
 
 while True:
     result = play_game()
-    if result == "무승부":
+    if result == "무승부!":
         print("한 판 더 진행합니다.")
         continue
 
