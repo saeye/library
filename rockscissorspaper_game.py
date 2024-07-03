@@ -2,31 +2,41 @@ import random
 
 print("게임을 시작합니다.")
 
+option = ["가위", "바위", "보"]
+
 
 def get_computer_choice():
-    choices = ["가위", "바위", "보"]
-    return random.choice(choices)
+    return random.choice(option)
 
 
 def get_player_choice():
     while True:
         player_choice = input("가위, 바위, 보 중 하나를 입력하세요: ").strip()
-        if player_choice in ["가위", "바위", "보"]:
+        if player_choice in option:
             return player_choice
         else:
             print("입력이 올바르지 않습니다.")
 
 
+win = 0
+lose = 0
+draw = 0
+
+
 def determine_winner(player_choice, computer_choice):
+    global win, lose, draw
     if player_choice == computer_choice:
+        draw += 1
         return "무승부"
     elif (
         (player_choice == "바위" and computer_choice == "가위")
         or (player_choice == "가위" and computer_choice == "보")
         or (player_choice == "보" and computer_choice == "바위")
     ):
+        win += 1
         return "승리"
     else:
+        lose += 1
         return "패배"
 
 
@@ -55,3 +65,4 @@ while True:
         break
 
 print("게임을 종료합니다!")
+print(f"결과: 승:{win}, 패:{lose}, 무승부:{draw}")
